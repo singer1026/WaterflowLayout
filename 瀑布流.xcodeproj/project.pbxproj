@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4649AEE01ADA6924002BEAF4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4649AEDF1ADA6924002BEAF4 /* README.md */; };
+		4649AEE31ADA69CD002BEAF4 /* QQ20150412-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4649AEE21ADA69CD002BEAF4 /* QQ20150412-1@2x.png */; };
 		46979F5A1ADA52D50032BB0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46979F591ADA52D50032BB0E /* main.m */; };
 		46979F5D1ADA52D50032BB0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46979F5C1ADA52D50032BB0E /* AppDelegate.m */; };
 		46979F601ADA52D50032BB0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46979F5F1ADA52D50032BB0E /* ViewController.m */; };
@@ -57,6 +58,7 @@
 
 /* Begin PBXFileReference section */
 		4649AEDF1ADA6924002BEAF4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4649AEE21ADA69CD002BEAF4 /* QQ20150412-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20150412-1@2x.png"; sourceTree = "<group>"; };
 		46979F541ADA52D50032BB0E /* 瀑布流.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "瀑布流.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46979F581ADA52D50032BB0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46979F591ADA52D50032BB0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -146,6 +148,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4649AEE11ADA69CD002BEAF4 /* ScreenCapture */ = {
+			isa = PBXGroup;
+			children = (
+				4649AEE21ADA69CD002BEAF4 /* QQ20150412-1@2x.png */,
+			);
+			path = ScreenCapture;
+			sourceTree = "<group>";
+		};
 		46979F4B1ADA52D50032BB0E = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +163,7 @@
 				46979F561ADA52D50032BB0E /* 瀑布流 */,
 				46979F701ADA52D50032BB0E /* 瀑布流Tests */,
 				46979F551ADA52D50032BB0E /* Products */,
+				4649AEE11ADA69CD002BEAF4 /* ScreenCapture */,
 			);
 			sourceTree = "<group>";
 		};
@@ -377,6 +388,7 @@
 				46979F631ADA52D50032BB0E /* Main.storyboard in Resources */,
 				46979F681ADA52D50032BB0E /* LaunchScreen.xib in Resources */,
 				46979F7E1ADA536B0032BB0E /* 1.plist in Resources */,
+				4649AEE31ADA69CD002BEAF4 /* QQ20150412-1@2x.png in Resources */,
 				46979F9D1ADA572B0032BB0E /* ShopCell.xib in Resources */,
 				46979F651ADA52D50032BB0E /* Images.xcassets in Resources */,
 			);
