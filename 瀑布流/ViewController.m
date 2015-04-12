@@ -24,15 +24,13 @@ static NSString *const shopCellID = @"shopCell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.automaticallyAdjustsScrollViewInsets = NO;
     self.shops = [NSMutableArray array];
     NSArray *array = [Shop objectArrayWithFilename:@"1.plist"];
     [self.shops addObjectsFromArray:array];
     
     MyWaterflowLayout *myWaterflowLayout = [[MyWaterflowLayout alloc]init];
     myWaterflowLayout.delegate = self;
-    
-//    _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:myWaterflowLayout];
+
     _collectionView.backgroundColor = [UIColor whiteColor];
     _collectionView.dataSource = self;
     _collectionView.delegate = self;
